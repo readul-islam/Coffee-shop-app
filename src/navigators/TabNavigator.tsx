@@ -8,6 +8,7 @@ import OrderHistoryScreen from '../screen/OrderHistoryScreen';
 import {COLORS} from '../theme/theme';
 import {BlurView} from '@react-native-community/blur';
 import CustomIcon from '../components/CustomIcon';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const Tab = createBottomTabNavigator();
 const TabNavigator = () => {
@@ -29,9 +30,9 @@ const TabNavigator = () => {
       <Tab.Screen
         options={{
           tabBarIcon: ({focused, color, size}) => (
-            <CustomIcon
+            <Icon
               name="home"
-              size={25}
+              size={28}
               color={
                 focused ? COLORS.primaryOrangeHex : COLORS.primaryLightGreyHex
               }
@@ -44,9 +45,9 @@ const TabNavigator = () => {
       <Tab.Screen
         options={{
           tabBarIcon: ({focused, color, size}) => (
-            <CustomIcon
-              name="home"
-              size={25}
+            <Icon
+              name="shopping-bag"
+              size={23}
               color={
                 focused ? COLORS.primaryOrangeHex : COLORS.primaryLightGreyHex
               }
@@ -59,9 +60,9 @@ const TabNavigator = () => {
       <Tab.Screen
         options={{
           tabBarIcon: ({focused, color, size}) => (
-            <CustomIcon
-              name="home"
-              size={25}
+            <Icon
+              name="heart"
+              size={23}
               color={
                 focused ? COLORS.primaryOrangeHex : COLORS.primaryLightGreyHex
               }
@@ -74,9 +75,9 @@ const TabNavigator = () => {
       <Tab.Screen
         options={{
           tabBarIcon: ({focused, color, size}) => (
-            <CustomIcon
-              name="home"
-              size={25}
+            <Icon
+              name="bell"
+              size={23}
               color={
                 focused ? COLORS.primaryOrangeHex : COLORS.primaryLightGreyHex
               }

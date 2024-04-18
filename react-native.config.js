@@ -1,7 +1,11 @@
-module.exports={
-project:{
-    ios:{},
-    android:{}
-},
-asserts:['./src/assets']
-};
+
+module.exports = {
+    dependencies: {
+      'react-native-vector-icons': {
+        platforms: {
+          ios: null,
+        },
+      },
+    },
+    asserts:['./src/assets']
+  };
