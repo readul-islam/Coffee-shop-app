@@ -16,7 +16,7 @@ import {
   FONTSIZE,
   SPACING,
 } from '../theme/theme';
-import CustomIcon from './CustomIcon';
+
 import BgIcon from './BgIcon';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
